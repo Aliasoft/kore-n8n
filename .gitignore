@@ -1,0 +1,20 @@
+# Environment · never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Docker override files
+docker-compose.override.yml
+
+# Backup archives
+*.tar.gz
+*.zip
+
+# Editor / OS
+.DS_Store
+desktop.ini
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
